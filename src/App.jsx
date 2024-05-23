@@ -19,16 +19,13 @@ const App = () => {
       setItems(initialItems);
     });
   }, []);
-  console.log("render", items.length, "items");
 
   const handleSearchTermChange = (event) => {
-    console.log(event.target.value);
     setSearchTerm(event.target.value);
   };
 
   const search = (event) => {
     event.preventDefault();
-    console.log(searchTerm);
     const results = items.filter(
       (item) =>
         item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -42,27 +39,22 @@ const App = () => {
   };
 
   const handleNameChange = (event) => {
-    console.log(event.target.value);
     setNewName(event.target.value);
   };
 
   const handleSizeChange = (event) => {
-    console.log(event.target.value);
     setNewSize(event.target.value);
   };
 
   const handleColorChange = (event) => {
-    console.log(event.target.value);
     setNewColor(event.target.value);
   };
 
   const handleBrandChange = (event) => {
-    console.log(event.target.value);
     setNewBrand(event.target.value);
   };
 
   const handleTagChange = (event) => {
-    console.log(event.target.value);
     setNewTag(event.target.value);
   };
 
