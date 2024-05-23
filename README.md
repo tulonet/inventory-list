@@ -6,7 +6,7 @@ This is a demo app for managing clothes and other items you have at your home. I
 
 TODO:
 
-- Deleting and modifying the items, add location and pictures.
+- Required field -check, error messaged, deleting and modifying the items, add location and pictures.
 - Nice to have in the future: categories and statistics.
 - Would be amazing to have: using AI to create the items from pictures that you upload, AI making list of clothes and items recommended for selling or charity based on sizes of the family members or AI making outfit recommendations based on the clothing items you have.
 
