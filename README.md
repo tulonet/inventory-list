@@ -1,8 +1,22 @@
-# React + Vite
+# inventory-list
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
 
-Currently, two official plugins are available:
+This is a demo app for managing clothes and other items you have at your home. It came from my own need to check if we already have something and what is for sale or to give away.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TODO:
+
+- Deleting and modifying the items, add location and pictures.
+- Nice to have in the future: categories and statistics.
+- Would be amazing to have: using AI to create the items from pictures that you upload, AI making list of clothes and items recommended for selling or charity based on sizes of the family members or AI making outfit recommendations based on the clothing items you have.
+
+### Running
+
+This app is created with Vite, React, Axios and JSON server.
+
+Install dependencies with `npm install`. Then run the app:
+
+```sh
+npm run server
+npm run dev
+```
