@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Toppahaalari",
+      "size": "128 cm",
+      "color": "Sininen",
+      "brand": "Lassie",
+      "tag": "Myyntiin"
+    },
+    {
+      "id": "2",
+      "name": "Välikausihaalari",
+      "size": "122 cm",
+      "color": "Tummansininen",
+      "brand": "Reima",
+      "tag": "Annetaan"
+    },
+    {
+      "id": "3",
+      "name": "Talvitakki",
+      "size": "128 cm",
+      "color": "Tummanvihreä",
+      "brand": "Reima",
+      "tag": ""
+    },
+    {
+      "id": "4",
+      "name": "Talvihousut",
+      "size": "128 cm",
+      "color": "Musta",
+      "brand": "Lindex",
+      "tag": ""
+    },
+    {
+      "id": "5",
+      "name": "Talvikengät",
+      "size": "31",
+      "color": "Musta",
+      "brand": "Adidas",
+      "tag": "Myyntiin"
+    },
+    {
+      "id": "6",
+      "name": "Pitkähihainen paita",
+      "size": "134",
+      "color": "Tummansininen",
+      "brand": "Kappahl",
+      "tag": ""
+    },
+    {
+      "id": "7",
+      "name": "Collegehousut",
+      "size": "122",
+      "color": "Violetti",
+      "brand": "Lindex",
+      "tag": "Annetaan"
+    },
+    {
+      "id": "8",
+      "name": "Polkupyörä",
+      "size": "26'",
+      "color": "Punainen",
+      "brand": "Woom",
+      "tag": ""
+    },
+    {
+      "id": "9",
+      "name": "Juhlamekko",
+      "size": "164",
+      "color": "Punainen",
+      "brand": "Ellos",
+      "tag": ""
+    },
+    {
+      "id": "10",
+      "name": "Kauluspaita",
+      "size": "M",
+      "color": "Valkoinen",
+      "brand": "H&M",
+      "tag": ""
+    },
+    {
+      "id": "11",
+      "name": "Silkkineulepaita",
+      "size": "38",
+      "color": "Beige",
+      "brand": "",
+      "tag": "Myyntiin"
+    },
+    {
+      "id": "12",
+      "name": "Juhlapaita",
+      "size": "40",
+      "color": "Musta",
+      "brand": "H&M",
+      "tag": "Myyntiin"
+    },
+    {
+      "id": "13",
+      "name": "Lenkkarit",
+      "size": "36",
+      "color": "Pinkki",
+      "brand": "Adidas",
+      "tag": "Myyntiin"
+    },
+    {
+      "id": "14",
+      "name": "Korkokengät",
+      "size": "40",
+      "color": "Musta",
+      "brand": "",
+      "tag": ""
+    },
+    {
+      "id": "15",
+      "name": "Lego-Luigi",
+      "size": "",
+      "color": "Vihreä",
+      "brand": "Lego",
+      "tag": "Myyntiin"
+    },
+    {
+      "id": "16",
+      "name": "Parkkitalo",
+      "size": "",
+      "color": "",
+      "brand": "Majorette",
+      "tag": "Annetaan"
+    },
+    {
+      "id": "17",
+      "name": "Verhot",
+      "size": "250 cm",
+      "color": "Musta",
+      "brand": "Ikea",
+      "tag": "Myyntiin"
+    },
+    {
+      "id": "6da4",
+      "name": "Huivi",
+      "size": "",
+      "color": "Vihreä",
+      "brand": "",
+      "tag": "Annetaan"
+    }
+  ]
+}
