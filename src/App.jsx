@@ -13,6 +13,7 @@ const App = () => {
   const [newColor, setNewColor] = useState("");
   const [newBrand, setNewBrand] = useState("");
   const [newTag, setNewTag] = useState("");
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
   useEffect(() => {
     itemService.getAll().then((initialItems) => {
@@ -78,6 +79,18 @@ const App = () => {
     });
   };
 
+  const deleteItemFromList = (id) => {
+    if (window.confirm("Haluatko varmasti poistaa tuotteen listalta?")) {
+      itemService.deleteItem(id).then(() => {
+        setItems(items.filter((item) => item.id !== id));
+        setSearchResults([]);
+        setShowConfirmation(true);
+      });
+      
+    }
+
+  };
+
   return (
     <div class="bg-black">
       <div class="text-white text-center sm:text-left p-14 mb-14">
@@ -100,9 +113,16 @@ const App = () => {
           search={search}
         />
         <div class="text-center text-white p-4">
+          {showConfirmation && (
+            <div class="m-8 p-8 border">
+              <h2>Tuote poistettu onnistuneesti!</h2>
+            </div>
+          )}
+        </div>
+        <div class="text-center text-white p-4">
           <ul>
             {searchResults.map((item) => (
-              <ShowItem key={item.id} item={item} />
+              <ShowItem key={item.id} item={item} deleteItem={() => deleteItemFromList(item.id)} />
             ))}
           </ul>
         </div>
