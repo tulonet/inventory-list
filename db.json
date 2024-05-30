@@ -1,14 +1,6 @@
 {
   "items": [
     {
-      "id": "1",
-      "name": "Toppahaalari",
-      "size": "128 cm",
-      "color": "Sininen",
-      "brand": "Lassie",
-      "tag": "Myyntiin"
-    },
-    {
       "id": "2",
       "name": "Välikausihaalari",
       "size": "122 cm",
@@ -41,14 +33,6 @@
       "tag": "Myyntiin"
     },
     {
-      "id": "6",
-      "name": "Pitkähihainen paita",
-      "size": "134",
-      "color": "Tummansininen",
-      "brand": "Kappahl",
-      "tag": ""
-    },
-    {
       "id": "7",
       "name": "Collegehousut",
       "size": "122",
@@ -70,14 +54,6 @@
       "size": "164",
       "color": "Punainen",
       "brand": "Ellos",
-      "tag": ""
-    },
-    {
-      "id": "10",
-      "name": "Kauluspaita",
-      "size": "M",
-      "color": "Valkoinen",
-      "brand": "H&M",
       "tag": ""
     },
     {
